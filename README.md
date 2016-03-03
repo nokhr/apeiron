@@ -1,2 +1,2 @@
-# apeiron
+# Apeiron
 Course work
