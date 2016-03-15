@@ -1,0 +1,51 @@
+html {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.font {
+    color: #82B7B7;
+    position: fixed;
+}
+
+#head {
+    font-size: 30px;
+    left: 30px;
+    top: -10px;
+}
+
+#head1 {
+    font-size: 20px;
+    left: 30px;
+    top: 40px;
+}
+
+#log_in {
+    left: 30px;
+    position: fixed;
+    top: 120px;
+}
+
+input {
+    color: #82B7B7;
+    background-color: #ECF6F5;
+    border: 8px ridge #82B7B7;
+    height: 30px;
+    font-size: 30px;
+    width: 350px;
+}
+
+button {
+    background-color: #82B7B7;
+    color: #FFFAFA;
+    font-size: 18px;
+    height: 30px;
+    left: 30px;
+    position: relative;
+    width: 120px;
+}
+
+::-webkit-input-placeholder {color: #82B7B7; font-size: 20px; padding-top: 15px;}
+::-moz-placeholder          {color: #82B7B7; font-size: 20px;}
+:-moz-placeholder           {color: #82B7B7; font-size: 20x;}
+:-ms-input-placeholder      {color: #82B7B7; font-size: 20px;}

@@ -1,0 +1,274 @@
+/* Авторизация */
+body{
+    height: 100%;
+    margin: 0px auto;
+    overflow: auto
+    width: 100%;
+}
+
+.font {
+    color: #82B7B7;
+    position: fixed;
+}
+
+#head {
+    left: 2%;
+    top: 1%;
+}
+
+#reg {
+    right: 2%;
+    top: 5%;
+}
+
+#logo {
+    height: 20%; 
+    left: 46%;
+    top: 13%;
+    width: 10%;
+}
+
+#log_in {
+    left: 36%;
+    top: 48%;
+}
+
+.auth_data {
+    height: 120%;
+    width: 190%;
+}
+
+#auth_but {
+    left: 49%;
+}
+
+button {
+    background-color: #82B7B7;
+    color: #FFFAFA;
+    font-size: 100%;
+    position: fixed;
+}
+
+input {
+    background-color: #ECF6F5;
+    border: 2px solid #82B7B7;
+    color: #82B7B7;
+}
+
+::-webkit-input-placeholder {color: #82B7B7; font-size: 70%; vertical-align: center;}
+::-moz-placeholder {color: #82B7B7; font-size: 70%; vertical-align: center;}
+:-moz-placeholder {color: #82B7B7; font-size: 70%;}
+:-ms-input-placeholder {color: #82B7B7; font-size: 70%;}
+
+#pass { 
+    font-size: 115%;
+    left: 2%;
+    bottom: 4%;
+}
+
+#reg, input {font-size: 130%;}
+
+/* Стартовая страница */
+/* Поле для друзей */
+#friends { 
+    background-color: #ECF6F5;
+    height: 100%; 
+    position: fixed;
+    width: 100%;
+}
+
+/* Поле поиска друга из контактов */
+#search {
+    border: 2px solid #82B7B7;
+    height: 5%;
+    left: 2%;
+    position: fixed;
+    top: 1.5%;
+    width: 95%;
+}
+
+/* Кнопка обработки запроса для поиска друга из контактов */
+#loupe {
+    height: 4%;
+    left: 92%;
+    position: fixed;
+    top: 2.5%; 
+    width: 5%;
+}
+
+/* Поле для расположения основных иконок меню */
+#menu {
+    background-color: #82B7B7; 
+    height: 100%;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+}
+
+/* Класс для иконок меню */
+.icon {  
+    height: 80%; 
+    position: fixed;
+    top: 10%;
+    width: 4%
+}
+
+/* Иконка добавления контакта */
+#add {
+    left: 0.5%;
+}
+
+/* Иконка настроек */
+#settings {
+    left: 7%;
+}
+
+/* Иконка создания конференции */
+#conference {
+    left: 13.5%;
+}
+
+/* Иконка помощи */
+#help {
+    right: 7.1%;
+}
+
+/* Иконка выхода */
+#log_out {
+    right: 0.6%;
+}
+
+/* Поле для основных действий
+#workplace {
+    border: 2px solid #82B7B7;
+    border-bottom: none;
+    height: 99%;
+    left: 1%;
+    position: fixed;
+    top: 1%;
+    width: 99%;
+}*/
+
+/* Настройки */
+.interface {
+    color: #82B7B7;
+    font-size: 180%;
+    position: fixed;
+    text-decoration: none;
+}
+
+table {
+    height: 30%;
+    left: 12%;
+    position: fixed;
+    top: -3%;
+}
+
+.interface:hover {
+    color: #A6D0D0; /* Цвет текста при наведении */
+}
+
+.ava {
+    border: 2px solid #82B7B7;
+    height: 13%;
+    left: 1.5%;
+    position: fixed;
+    top: 2%;
+    width: 10%;
+}
+
+.ch_ava {
+    font-size: 85%;
+    left: 13%;
+    position: fixed;
+    top: 13%;
+}
+
+#status {
+    height: 2.5%;
+    left: 10.1%;
+    position: fixed;
+    top: 13%;
+    width: 1.9%;
+}
+
+.name {
+    color: #82B7B7;
+    font-size: 250%;
+    position: fixed;
+    left: 24%;
+    top: -5%;
+}
+
+#profile {
+    left: 7%;
+    position: absolute;
+    top: 19%;
+    width: 90%
+}
+
+.proinfo {
+    background-color: #ECF6F5;
+    border: 2px solid #82B7B7;
+    color: #82B7B7;
+    width: 90%;
+}
+
+p {
+    color: #82B7B7;
+    font-size: 100%;
+}
+
+#save {
+    left: 43%;
+    top: 87%;
+    width: 16%;
+}
+
+/* Создание конференции */
+#conf_ava {
+    left: 1.5%;
+    width: 8%;
+}
+
+#conf_name {
+    left: 15%;
+} 
+
+#ch_ava {
+    left: 11%;
+    top: 13%;
+}
+
+.conf_icon {
+    height: 8%; 
+    position: fixed;
+    top: 3%;
+    width: 5%
+}
+
+#conf_add {
+    right: 14%;
+}
+
+#conf_del {
+    right: 8%;
+}
+
+#conf_out {
+   right: 2%; 
+}
+
+#conf_save {
+    left: 
+}
+
+<p id="checkbox">
+            <input type="checkbox">Петров Петр</br>
+            <input type="checkbox">Сидоров Павел</br>
+            <input type="checkbox">Дружинин Николай</br>
+            <input type="checkbox">Логинов Адександр</br>
+            <input type="checkbox">Зайцева Татьяна</br>
+            <input type="checkbox">Калинина Анастасия
+            <button id="conf_save" type="submit">Сохранить</button>
+        </p>
